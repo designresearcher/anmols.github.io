@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.0.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <title>Home</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=60997044" id="pagesheet"/>
+   </head>
+ <body>
+
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu292"><!-- group -->
+    <div class="browser_width" id="u292-bw">
+     <div id="u292"><!-- simple frame --></div>
+    </div>
+    <a class="nonblock nontext anim_swing clearfix" id="u116-4" href="index.html#aboutme" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>About Me</p></a>
+    <div id="u120-4-wrapper">
+     <div class="clearfix" id="u120-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Code Art</p>
+     </div>
+    </div>
+    <div id="u123-4-wrapper">
+     <div class="clearfix" id="u123-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Tinkering</p>
+     </div>
+    </div>
+    <div id="u237-4-wrapper">
+     <div class="clearfix" id="u237-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Publications</p>
+     </div>
+    </div>
+    <div id="u240-4-wrapper">
+     <div class="clearfix" id="u240-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Courses</p>
+     </div>
+    </div>
+    <div id="u289-4-wrapper">
+     <div class="clearfix" id="u289-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Awards</p>
+     </div>
+    </div>
+    <div class="clearfix" id="u301-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p>Research</p>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="ppu286"><!-- column -->
+    <div class="clearfix colelem" id="pu286"><!-- group -->
+     <div class="grpelem" id="u286"><!-- simple frame --></div>
+     <div class="grpelem" id="u339"><!-- custom html -->
+      <!DOCTYPE html>
+<html>
+	<head>
+		<title>My Sketch</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+	</head>
+	<body>
+		<script type="application/processing">
+			
+
+
+float a = 0;
+float dir = 1;
+void setup()
+{
+  size(960,470);
+rectMode(CENTER);
+frameRate(20);
+background(#FBC51F);
+}
+
+void draw()
+{
+  //background(mouseX,mouseY, (mouseX+mouseY)/10);
+
+  a = a+0.09;
+  
+  for(int i = 0; i < width; i=i+50)
+  {
+    for (int j = 0; j < height; j=j+50)
+    {
+      stroke(mouseX+mouseY/5,mouseY/5,(mouseX+mouseY)/10);
+      fill(mouseX, 10+mouseY, mouseX*mouseY/10);
+      rotrect(i,j,10);
+    }
+  } 
+  //fill(#FFB6C1);
+  //ellipse(mouseX,mouseY,20,20);
+  
+}
+
+void rotrect(float x, float y, float size)
+{
+  
+  //translate(x,y);
+  //rotate(a);
+  //ellipse(0,0,size,size);
+  //line(0,0,size,size);
+  //resetMatrix();
+  
+  translate(x+10,y+10);
+  rotate(a);
+  line(0,0,size,size);
+  resetMatrix();
+  
+  //translate(x+20,y+20);
+  //rotate(a);
+  //ellipse(0,0,size,size);
+  //resetMatrix();
+}
+
+void mousePressed()
+{
+  background(random(255),random(255),random(255));
+}
+		</script>
+		<canvas> </canvas>
+	</body>
+</html>
+     </div>
+     <div class="rgba-background clearfix grpelem" id="u215"><!-- column -->
+      <div class="clearfix colelem" id="u221-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <p>Hello! I'm Anmol...</p>
+       <p>Welcome to my website.</p>
+      </div>
+      <div class="clearfix colelem" id="u320-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <p>Website under construction.</p>
+      </div>
+     </div>
+     <a class="anchor_item grpelem" id="aboutme" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    </div>
+    <div class="clearfix colelem" id="pu256-29"><!-- group -->
+     <div class="clearfix grpelem" id="u256-29" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Hi, I’m <span id="u256-2">Anmol</span>. I completed my<span id="u256-4"> Ph.D.</span> (that makes me <span id="u256-6">Dr.</span> <span id="u256-8">Anmol Srivastava </span>:) ) in the area of <span id="u256-10">Human-Computer Interaction</span> from UE &amp; HCI Lab, IIT Guwahati under supervision of Prof. Pradeep Yammiyavar.</p>
+      <p>&nbsp;</p>
+      <p>I am an educator, a learner, creative technologist and an ever evolving Designer. I am interested in exploring novel methods of interactions for users using emerging technologies to aid utility and usability in different scenarios. I believe that a human-centered design approach plays a key role in developing such interaction modalities.</p>
+      <p>&nbsp;</p>
+      <p>While I am fascinated by technology, I am constantly looking for ways to create synergies between Art, Design and Technology for finding solutions to some of the compelling research problems.</p>
+      <p>&nbsp;</p>
+      <p>At present, I have taken the position of <span id="u256-21">Assistant Professor</span> in the <span id="u256-23">School of Design</span> at <span id="u256-25">UPES</span> where I teach and philosophize about HCI, Interaction Design, AR/VR, AI and a lot of other stuff about Design and Technology. Much of my work also involves hands-on sessions with electronics and creative coding.</p>
+     </div>
+     <div class="clip_frame grpelem" id="u259" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
+      <img class="block" id="u259_img" src="images/me.jpg?crc=364777668" alt="" width="510" height="383"/>
+     </div>
+     <div class="clearfix grpelem" id="u283-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>I like to hack, build and make interactive stuff. New techs fascinate me!</p>
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="1059" data-content-above-spacer="1058" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="u323-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+    <p>About Me</p>
+   </div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = true
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=4153641093" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
+</html>
